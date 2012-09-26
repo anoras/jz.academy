@@ -1,0 +1,10 @@
+<ul style="nav nav-list">
+    {{#each contacts}}
+    <li>
+        <a href="#contacts/{{_id}}">
+            <i class="icon-user"></i>
+            {{firstName}} {{lastName}}
+        </a>
+    </li>
+    {{/each}}
+</ul>
